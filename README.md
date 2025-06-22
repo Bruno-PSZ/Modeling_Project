@@ -8,7 +8,7 @@ This repository contains the code and materials used in my project for classifyi
 ```bash
 pip install -r requirements.txt
 ```
-2. Download raw and preprocessed data from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE155249 and put it into /DATA folder. Preprocessed data should be saved as DATA\GSE155249_main and raw data as Data/GSE155249_RAW.h5ad.
+2. Download raw and preprocessed data from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE155249 and put it into /DATA folder (you need to create it first "mkdir DATA").  Preprocessed data should be saved as DATA/GSE155249_main and raw data as Data/GSE155249_RAW.h5ad.
 
 3. Crate secrets.env file in the root of the project. This file is used for storing the API keys for ClearML. Your file should look like this:
 
@@ -30,7 +30,7 @@ If you want to recreate all the steps of the analysis run notebooks as follows (
 3. [prepare_different_anndata.ipynb](prepare_different_anndata.ipynb)
 4. [test_hvg_number.ipynb](test_hvg_number.ipynb)
 5. [fix_count_not_normalized_adata.ipynb](fix_count_not_normalized_adata.ipynb)
-6. [(prepare_scanvi_anndata.ipynb](prepare_scanvi_anndata.ipynb)
+6. [prepare_scanvi_anndata.ipynb](prepare_scanvi_anndata.ipynb)
 7. [test_model_on_scanvi.ipynb](test_model_on_scanvi.ipynb)
 8. [train_and_test_final_model.ipynb](train_and_test_final_model.ipynb)
 9. [visualize_umap_scanvi.ipynb](visualize_umap_scanvi.ipynb)
