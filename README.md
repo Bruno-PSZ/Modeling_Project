@@ -8,7 +8,7 @@ This repository contains the code and materials used in my project for classifyi
 ```bash
 pip install -r requirements.txt
 ```
-2. Download raw and preprocessed data from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE155249 and put it into /DATA folder (you need to create it first "mkdir DATA").  Preprocessed data should be saved as DATA/GSE155249_main and raw data as Data/GSE155249_RAW.h5ad.
+2. Download raw and preprocessed data from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE155249 and put it into /DATA folder (you need to create it first "mkdir DATA").  Preprocessed data should be saved as DATA/GSE155249_main and raw data as DATA/GSE155249_RAW.h5ad.
 
 3. Crate secrets.env file in the root of the project. This file is used for storing the API keys for ClearML. Your file should look like this:
 
