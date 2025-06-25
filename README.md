@@ -1,9 +1,9 @@
-# Evaluating the importance of input data representation for
+# Evaluating the importance of input data representation for single cell deep learning classifier
 
 This repository contains the code and materials used in my project for classifying 28 different cell types from single-cell RNA sequencing (scRNA-seq) data using deep learning techniques. The project compares models trained on raw gene expression data versus embeddings generated from scVI and scANVI models.
 
 ##  Setup
-1. Install dependencies with:
+1. The setup needs Python was build using Python 3.13.2. Install dependencies with:
 
 ```bash
 pip install -r requirements.txt
